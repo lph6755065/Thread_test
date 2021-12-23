@@ -61,8 +61,8 @@ int main(int argc, const char *argv[])
 	
 	pthread_join(id1,NULL);
 	pthread_join(id2,NULL);
-    pthread_join(id3,NULL);
-    printf("\n");
+    	pthread_join(id3,NULL);
+    
 	return 0;
 }
 ```
